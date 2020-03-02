@@ -15,7 +15,6 @@
 		3E901CBF240B33C600941FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E901CBD240B33C600941FE0 /* LaunchScreen.storyboard */; };
 		3E901CC7240B33D400941FE0 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E901CC6240B33D400941FE0 /* WeatherLocation.swift */; };
 		3E97784B240C99B100BE3D2C /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E97784A240C99B100BE3D2C /* APIkeys.swift */; };
-		3E97784F240C9D1900BE3D2C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3E97784E240C9D1900BE3D2C /* .gitignore */; };
 		EF6414DBE2536D62C40A0A24 /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10894F136D2A3CD27AE8D16F /* libPods-WeatherGift.a */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		3E901CC0240B33C600941FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E901CC6240B33D400941FE0 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		3E97784A240C99B100BE3D2C /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
-		3E97784E240C9D1900BE3D2C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A822B8D00B7EA4209624A3F7 /* Pods-WeatherGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.release.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.release.xcconfig"; sourceTree = "<group>"; };
 		F0D83915BFD7504F7430B989 /* Pods-WeatherGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.debug.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +76,6 @@
 				3E901CBD240B33C600941FE0 /* LaunchScreen.storyboard */,
 				3E901CC0240B33C600941FE0 /* Info.plist */,
 				3E97784A240C99B100BE3D2C /* APIkeys.swift */,
-				3E97784E240C9D1900BE3D2C /* .gitignore */,
 			);
 			path = WeatherGift;
 			sourceTree = "<group>";
@@ -160,7 +157,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E97784F240C9D1900BE3D2C /* .gitignore in Resources */,
 				3E901CBF240B33C600941FE0 /* LaunchScreen.storyboard in Resources */,
 				3E901CBC240B33C600941FE0 /* Assets.xcassets in Resources */,
 				3E901CBA240B33C600941FE0 /* Main.storyboard in Resources */,
