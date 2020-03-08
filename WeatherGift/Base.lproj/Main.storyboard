@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pTJ-oz-fGl">
-                                <rect key="frame" x="0.0" y="772" width="72" height="44"/>
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="QS4-Bd-4lx"/>
                                 </constraints>
@@ -25,7 +25,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="7rj-3g-NJk"/>
                                     <barButtonItem image="list.bullet" catalog="system" id="Rtk-4G-QsA">
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="36I-8d-5bM"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="automatic" id="36I-8d-5bM"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -151,7 +151,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="wHO-Rb-aRn" kind="unwind" unwindAction="unwindFromLocationListViewControllerWithSegue:" id="Ah6-Jr-w1A"/>
+                                            <segue destination="wHO-Rb-aRn" kind="unwind" unwindAction="unwindFromLocationListViewControllerWithSegue:" id="4Nj-fB-aXD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
